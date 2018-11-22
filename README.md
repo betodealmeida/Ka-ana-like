@@ -13,8 +13,9 @@ This means that nodes A and B will share a 1TB contract: node A will store 1TB o
 
 | Node | Unencrypted data | Encrypted data | Extra storage |
 | ---- | ---------------- | -------------- | ------------- |
-|  A   | [1, 2]           | [a, b]         | [c, d, -, -]  |
+|  A   | [1, 2]           | [a, b]         | [c, d, e, f]  |
 |  B   | [3, 4]           | [c, d]         | [a, b, -, -]  |
+|  C   | [5, 6]           | [e, f]         | [a, b, -, -]  |
 
 ## Verifying that the data is being stored
 
