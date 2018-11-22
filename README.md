@@ -34,7 +34,7 @@ Imagine Node A goes offline, and Node B issues a challenge:
 - Node B: "What is the first byte of my data?"
 - Node A: "..."
 
-Node B has agreed to hold Node A's data for 7 days after a failed challenge. This allows Node A time to recover and get back in the system. But Node B could be greedly and immediately delete Node A's data, trying to free the space in order to establish a new contract with a different node. In order to prevent this, nodes will fail the challenge on purpose:
+Node B has agreed to hold Node A's data for 7 days after a failed challenge. This allows Node A time to recover and get back in the system. But Node B could be greedy and immediately delete Node A's data, trying to free the space in order to establish a new contract with a different node. In order to prevent this, nodes will fail the challenge on purpose:
 
 - Node B: "What is the first byte of my data?"
 - Node A *lies*: "e"
