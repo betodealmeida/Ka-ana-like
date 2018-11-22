@@ -48,3 +48,8 @@ After 6 days, Node A verifies that Node B still has its data:
 - Node B: "What is the first byte of my data?"
 - Node A: "c"
 - Node B: "Cool, thanks! I'll refresh the expiration of your data now."
+
+# References
+
+- https://askubuntu.com/questions/58935/how-do-i-create-an-encrypted-filesystem-inside-a-file
+- https://pypi.org/project/pyp2p/
